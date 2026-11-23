@@ -1,6 +1,6 @@
-# Suivi Transports — API de traçabilité des transports de produits de santé
+# Suivi Transports - API de traçabilité des transports de produits de santé
 
-API interne de l'équipe Suivi Transports (Santélog). Elle trace les transports de produits de santé — médicaments, dispositifs médicaux, échantillons biologiques — entre l'entrepôt et les destinataires, avec les relevés de température remontés par les capteurs embarqués.
+API interne de l'équipe Suivi Transports (Santélog). Elle trace les transports de produits de santé - médicaments, dispositifs médicaux, échantillons biologiques - entre l'entrepôt et les destinataires, avec les relevés de température remontés par les capteurs embarqués.
 
 L'interface web de suivi (écran de suivi des transports, tableau de bord) est maintenue par une autre équipe et consomme cette API.
 
@@ -14,8 +14,8 @@ Aucune base de données à installer : l'application utilise SQLite (fichier loc
 ## Installation
 
 ```bash
-git clone <url-du-depot>
-cd <dossier-du-depot>
+git clone https://github.com/OpenClassrooms-Student-Center/P7FSBE-option-.NET.git
+cd P7FSBE-option-.NET
 dotnet restore
 ```
 

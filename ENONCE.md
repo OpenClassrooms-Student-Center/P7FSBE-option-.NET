@@ -368,7 +368,7 @@ L'évaluateur sort de son rôle pour devenir un pair expérimenté. Ce temps est
 - **Conseil de carrière** : quel conseil donner à un développeur qui reprend une application existante pour la première fois ?
 
 :::encadre type=info
-Votre présentation devrait durer 15 minutes (+/- 5 minutes). Puisque le respect des durées des présentations est important en milieu professionnel, les présentations en dessous de 10 minutes ou au-dessus de 20 minutes peuvent être refusées.
+Votre présentation dure 12 minutes. La soutenance dure 30 minutes au total : 12 minutes de présentation, 10 minutes de discussion et 8 minutes de débriefing. Le respect de ce format est attendu.
 :::
 
 ---
