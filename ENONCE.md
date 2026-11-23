@@ -60,7 +60,7 @@ Vous avez toutes les cartes en main, c'est parti ! Pour plus de conseils, suivez
 
 # Exercice optionnel — Déployez et maintenez une application (.NET)
 
-Vous recevez une petite application au périmètre volontairement limité : `[À COMPLÉTER : nom et description de la codebase de l'exercice optionnel (.NET)]`. Elle fonctionne sur votre poste en local, et c'est tout : pas de conteneur, pas d'automatisation, pas de monitoring. Vous allez combler ces trois manques, dans cet ordre, en suivant les étapes guidées.
+Vous recevez une petite application au périmètre volontairement limité : MiniLien, une API ASP.NET Core qui transforme une URL longue en lien court et compte les visites. Elle fonctionne sur votre poste en local, et c'est tout : pas de conteneur, pas d'automatisation, pas de monitoring. Vous allez combler ces trois manques, dans cet ordre, en suivant les étapes guidées.
 
 ### Étape A — Conteneurisez l'application avec Docker
 
@@ -210,7 +210,7 @@ Les cinq demandes d'Élodie structurent votre travail. Les étapes ci-dessous en
 **Attendus concrets :**
 
 - les vulnérabilités traitées dans le code, référencées par rapport à l'OWASP Top 10 dans sa version 2025 (le référentiel des 10 catégories de vulnérabilités applicatives les plus critiques) ;
-- une authentification OAuth2 avec jetons JWT mise en œuvre via ASP.NET Core Identity, et des autorisations différenciées par rôle ;
+- une authentification par jeton JWT vérifié par le gestionnaire JWT bearer d'ASP.NET Core, ou une authentification HTTP Basic correctement justifiée et protégée par HTTPS, et des autorisations différenciées par rôle ;
 - la validation des entrées par attributs de modèle (`[Required]`, `[StringLength]`, vérification de `ModelState`) plutôt que par des vérifications manuelles dispersées ;
 - la protection des données stockées : mots de passe hachés avec un algorithme adapté (le hachage natif d'ASP.NET Core Identity), secrets sortis du code et de `appsettings.json`, et secrets déjà exposés dans l'historique Git traités (révocation et remplacement, purge de l'historique si vous la jugez nécessaire) ;
 - la **note de sécurisation technique** : le lien vers le dépôt, un tableau récapitulant les vulnérabilités traitées (catégorie OWASP, localisation, correction apportée), et la cartographie des flux chiffrés et des privilèges — c'est elle qui rend compte de la protection des échanges : quels flux circulent chiffrés, où se fait la terminaison TLS (le point où le chiffrement des échanges s'arrête), et qui accède à quoi.
@@ -368,7 +368,7 @@ L'évaluateur sort de son rôle pour devenir un pair expérimenté. Ce temps est
 - **Conseil de carrière** : quel conseil donner à un développeur qui reprend une application existante pour la première fois ?
 
 :::encadre type=info
-Votre présentation devrait durer 15 minutes (+/- 5 minutes). Puisque le respect des durées des présentations est important en milieu professionnel, les présentations en dessous de 10 minutes ou au-dessus de 20 minutes peuvent être refusées.
+Votre présentation dure 12 minutes. La soutenance dure 30 minutes au total : 12 minutes de présentation, 10 minutes de discussion et 8 minutes de débriefing. Le respect de ce format est attendu.
 :::
 
 ---
